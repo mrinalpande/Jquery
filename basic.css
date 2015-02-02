@@ -1,0 +1,38 @@
+body{
+background-size : 100% auto;
+}
+img.logo
+{
+	top:50%;
+	left:50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%)
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	filter:alpha(opacity=40);
+	opacity: 0.7;
+	position:absolute;
+}
+
+img.logo:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=100); 
+}
+
+.circle{
+	display:none;
+	top:50%;
+	left:50%;
+-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+border: 85px solid #fff ;
+border-radius:300px;
+width:150px ;
+height:150px;
+opacity:0.37;
+position:absolute;
+}
